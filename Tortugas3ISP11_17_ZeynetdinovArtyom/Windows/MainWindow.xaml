@@ -6,9 +6,25 @@
         xmlns:local="clr-namespace:Tortugas3ISP11_17_ZeynetdinovArtyom"
         mc:Ignorable="d"
         Title="TableSelection"
-        Height="1366"
-        Width="1024">
+        Height="1112"
+        Width="834"
+        WindowStartupLocation="CenterScreen"
+        MaxHeight="1112"
+        MaxWidth="834"
+        MinHeight="1112"
+        MinWidth="834"
+        >
     <Grid>
+        <Image 
+            Source="/Image/Background.png"
+            Stretch="Fill">
+        </Image>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
         
     </Grid>
 </Window>
