@@ -48,5 +48,10 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
         {
 
         }
+
+        private void Order_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
