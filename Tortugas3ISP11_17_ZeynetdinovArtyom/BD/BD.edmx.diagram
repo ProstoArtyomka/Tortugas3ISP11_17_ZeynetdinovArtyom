@@ -5,20 +5,20 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="a7e0150f3659470a928ddf71b2cb639a" Name="Diagram1">
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.CategoryProduct" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Gender" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Order" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Product" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.ProductOrder" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Table" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Waiter" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Product_CategoryProduct" ManuallyRouted="false" />
-        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Waiter_Gender" ManuallyRouted="false" />
-        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Order_Table" ManuallyRouted="false" />
-        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Order_Waiter" ManuallyRouted="false" />
-        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_ProductOrder_Order" ManuallyRouted="false" />
-        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_ProductOrder_Product" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.CategoryProduct" Width="1.5" PointX="3" PointY="9.375" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Gender" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Order" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Product" Width="1.5" PointX="5.25" PointY="8.75" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.ProductOrder" Width="1.5" PointX="7.5" PointY="1.125" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Table" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="Tortugas_3ISP11_17_ZeynetdinovModel.Waiter" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Product_CategoryProduct" />
+        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Waiter_Gender" />
+        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Order_Table" />
+        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Order_Waiter" />
+        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_ProductOrder_Order" />
+        <AssociationConnector Association="Tortugas_3ISP11_17_ZeynetdinovModel.FK_ProductOrder_Product" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
