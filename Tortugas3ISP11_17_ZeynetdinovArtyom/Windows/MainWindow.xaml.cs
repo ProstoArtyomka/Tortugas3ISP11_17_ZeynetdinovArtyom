@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Tortugas3ISP11_17_ZeynetdinovArtyom.Windows;
+using Menu = Tortugas3ISP11_17_ZeynetdinovArtyom.Windows.Menu;
 
 namespace Tortugas3ISP11_17_ZeynetdinovArtyom
 {
@@ -23,6 +25,13 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Table_Click(object sender, RoutedEventArgs e)
+        {
+            Menu mainWindow = new Menu();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }

@@ -17,14 +17,43 @@
     <Grid>
         <Image 
             Source="/Image/Background.png"
-            Stretch="Fill">
-        </Image>
+            Stretch="Fill"
+            Grid.RowSpan="3" Margin="0,0,0.333,-0.111"/>
+        <Image 
+            Source="/Image/Logo.png" Margin="0,0,0.333,1.111"/>
+        <Label x:Name="Текст"
+               Content="                          Добро пожаловать! Выберите свободный столик и проследуйте                               за официантом"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
+               Foreground="White" 
+               FontSize="31" 
+               Margin="5,195,5.333,711.889"
+               Grid.RowSpan="3"
+               Width="819"
+               />
+        <Button
+            x:Name="Table"
+            Grid.Row="2"
+            Margin="0,34.111,628.333,466.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/TestTable.png"
+                Stretch="Fill"/>
+        </Button>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="207*"/>
+            <RowDefinition Height="166*"/>
+            <RowDefinition Height="712*"/>
         </Grid.RowDefinitions>
-        
     </Grid>
 </Window>

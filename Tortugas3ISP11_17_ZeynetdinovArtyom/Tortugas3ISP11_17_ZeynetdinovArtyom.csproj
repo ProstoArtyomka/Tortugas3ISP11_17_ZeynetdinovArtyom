@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Windows\Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
     <Page Include="Windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -121,6 +124,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -195,6 +202,13 @@
       <DependentUpon>BD.edmx</DependentUpon>
       <LastGenOutput>BD.cs</LastGenOutput>
     </Content>
+    <Resource Include="ImageMenu\Salad.png" />
+    <Resource Include="ImageMenu\Snack.png" />
+    <Resource Include="ImageMenu\Drink.png" />
+    <Resource Include="ImageMenu\Pizza.png" />
+    <Resource Include="ImageMenu\Burger.png" />
+    <Resource Include="Image\Logo.png" />
+    <Resource Include="Image\TestTable.png" />
     <Resource Include="Montserrat\COPYRIGHT.txt" />
     <Resource Include="Montserrat\LICENSE.txt" />
   </ItemGroup>
