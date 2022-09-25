@@ -192,13 +192,6 @@
     <Resource Include="Image\Background.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ImageProduct\Веганская.png" />
-    <Resource Include="ImageProduct\Карбонара.png" />
-    <Resource Include="ImageProduct\ПиццаПепперони.png" />
-    <Resource Include="ImageProduct\Халапеньо.png" />
-    <Resource Include="ImageProduct\Чикен BBQ.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="BD\BD.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>BD.Context.cs</LastGenOutput>
@@ -209,6 +202,29 @@
       <DependentUpon>BD.edmx</DependentUpon>
       <LastGenOutput>BD.cs</LastGenOutput>
     </Content>
+    <Resource Include="ImageProduct\Salad\CaesarSalad.png" />
+    <Resource Include="ImageProduct\Salad\CaesarSaladWithShrimp.png" />
+    <Resource Include="ImageProduct\Salad\VegetableSalad.png" />
+    <Resource Include="ImageProduct\Snack\ChickenWings.png" />
+    <Resource Include="ImageProduct\Snack\FrenchFries.png" />
+    <Resource Include="ImageProduct\Snack\Shrimp.png" />
+    <Resource Include="ImageProduct\Snack\CheeseSticks.png" />
+    <Resource Include="ImageProduct\Snack\Nuggets.png" />
+    <Resource Include="ImageProduct\Drink\WaterGas.png" />
+    <Resource Include="ImageProduct\Drink\Water.png" />
+    <Resource Include="ImageProduct\Drink\Coca-Cola.png" />
+    <Resource Include="ImageProduct\Drink\Sprite.png" />
+    <Resource Include="ImageProduct\Drink\Fanta.png" />
+    <Resource Include="ImageProduct\Pizza\HamAndMushrooms.png" />
+    <Resource Include="ImageProduct\Pizza\Cheese.png" />
+    <Resource Include="ImageProduct\Pizza\Diablo.png" />
+    <Resource Include="ImageProduct\Pizza\BBQChicken.png" />
+    <Resource Include="ImageProduct\Pizza\Pepperoni.png" />
+    <Resource Include="ImageProduct\Burger\Cheeseburger.png" />
+    <Resource Include="ImageProduct\Burger\RoyalDeLuxe.png" />
+    <Resource Include="ImageProduct\Burger\FiletOFish.png" />
+    <Resource Include="ImageProduct\Burger\BigTasty.png" />
+    <Resource Include="ImageProduct\Burger\BigMac.png" />
     <Resource Include="ImageMenu\Salad.png" />
     <Resource Include="ImageMenu\Snack.png" />
     <Resource Include="ImageMenu\Drink.png" />
