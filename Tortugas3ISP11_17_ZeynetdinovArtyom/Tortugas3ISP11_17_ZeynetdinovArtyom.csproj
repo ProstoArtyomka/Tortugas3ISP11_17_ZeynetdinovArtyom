@@ -202,6 +202,9 @@
       <DependentUpon>BD.edmx</DependentUpon>
       <LastGenOutput>BD.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\Promocode2.png" />
+    <Resource Include="Image\Promocode.png" />
+    <Resource Include="Image\Payment.png" />
     <Resource Include="ImageProduct\Salad\CaesarSalad.png" />
     <Resource Include="ImageProduct\Salad\CaesarSaladWithShrimp.png" />
     <Resource Include="ImageProduct\Salad\VegetableSalad.png" />

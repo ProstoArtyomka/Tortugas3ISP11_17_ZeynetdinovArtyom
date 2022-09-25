@@ -18,9 +18,9 @@
         <Image 
             Source="/Image/Background.png"
             Stretch="Fill"
-            Grid.RowSpan="5" Margin="0,0,0.333,-0.111"/>
+            Grid.RowSpan="5"/>
         <Image 
-            Source="/Image/Logo.png" Margin="0,0,0.333,0.111" 
+            Source="/Image/Logo.png" 
             />
         <Label x:Name="Title"
                Content="Заказ"
@@ -30,7 +30,7 @@
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
                Foreground="White"
                Width="181" 
-               Margin="59,13.889,589.333,5.111"
+               Margin="57,14,588,5"
                FontSize="40" Grid.Row="1"
                />
         <Label x:Name="CostOrder"
@@ -42,7 +42,7 @@
                Foreground="White"
                Width="33" 
                Grid.Row="4" 
-               Margin="685,19.889,111.333,17.111"
+               Margin="682,19,111,265"
                FontSize="25"
                />
         <Label
@@ -54,7 +54,31 @@
                Foreground="White"
                Width="33" 
                Grid.Row="4" 
-               Margin="711,19.889,85.333,17.111"
+               Margin="709,19,84,265"
+               FontSize="25"
+               />
+        <Label x:Name="CostDiscount"
+               Content="0"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Left"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold" 
+               Foreground="White"
+               Width="33" 
+               Grid.Row="4" 
+               Margin="682,77,111,207"
+               FontSize="25"
+               />
+        <Label
+               Content="₽"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold" 
+               Foreground="White"
+               Width="33" 
+               Grid.Row="4" 
+               Margin="709,77,84,207"
                FontSize="25"
                />
         <Label x:Name="Product"
@@ -65,7 +89,7 @@
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
                Foreground="White"
                Width="120" 
-               Margin="88,4.889,621.333,10.222"
+               Margin="86,5,620,10"
                FontSize="20"
                Grid.Row="2"
                />
@@ -77,7 +101,7 @@
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
                Foreground="White"
                Width="120" 
-               Margin="477,4.889,232.333,10.222"
+               Margin="475,5,231,10"
                FontSize="20" 
                Grid.Row="2"
                />
@@ -89,19 +113,94 @@
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
                Foreground="White"
                Width="142" 
-               Margin="602,4.889,85.333,10.222"
+               Margin="600,5,84,10"
                FontSize="20" 
                Grid.Row="2"
                />
+        <Label x:Name="Sum"
+               Content="Сумма"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
+               Foreground="White"
+               Width="120" 
+               Margin="475,10,231,261"
+               FontSize="25" 
+               Grid.Row="4"
+               />
+        <Label x:Name="Discount"
+               Content="Скидка"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
+               Foreground="White"
+               Width="120" 
+               Margin="481,68,225,203"
+               FontSize="25" 
+               Grid.Row="4"
+               />
+        <Label x:Name="FinalCost"
+               Content="Итог"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
+               Foreground="White"
+               Width="133" 
+               Margin="479,154,214,108"
+               FontSize="45" 
+               Grid.Row="4"
+               />
+        <Label x:Name="CostFinal"
+               Content="0"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Left"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold" 
+               Foreground="White"
+               Width="33" 
+               Grid.Row="4" 
+               Margin="682,167,111,117"
+               FontSize="25"
+               />
+        <Label
+               Content="₽"
+               HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold" 
+               Foreground="White"
+               Width="33" 
+               Grid.Row="4" 
+               Margin="709,167,84,117"
+               FontSize="25"
+               />
+        <Image 
+            Source="/Image/Payment.png"
+            Stretch="Fill"
+            Grid.Row="4" 
+            Margin="486,233,84,27"/>
+        <Image 
+            Source="/Image/Promocode.png"
+            Stretch="Fill"
+            Grid.Row="4" 
+            Margin="49,72,549,249"/>
+        <Image 
+            Source="/Image/Promocode2.png"
+            Stretch="Fill"
+            Grid.Row="4" 
+            Margin="169,72,547,249"/>
         <ListView 
             x:Name="listBook"
-            Grid.Row="2"
+            Grid.Row="3"
             KeyUp="listBook_KeyUp"
             SelectionChanged="listBook_SelectionChanged" 
             MouseDoubleClick="listBook_MouseDoubleClick"
             ScrollViewer.HorizontalScrollBarVisibility="Disabled"
             Background="{x:Null}"
-            BorderBrush="{x:Null}" Margin="59,46.889,65.333,10" Grid.RowSpan="2">
+            BorderBrush="{x:Null}" Margin="59,0,65,10">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Название продукта" Width="200" DisplayMemberBinding="{Binding NameProduct}"/>
@@ -120,11 +219,11 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="207*"/>
+            <RowDefinition Height="206*"/>
             <RowDefinition Height="80*"/>
             <RowDefinition Height="47*"/>
-            <RowDefinition Height="450*"/>
-            <RowDefinition Height="301*"/>
+            <RowDefinition Height="383*"/>
+            <RowDefinition Height="365*"/>
         </Grid.RowDefinitions>
     </Grid>
 </Window>
