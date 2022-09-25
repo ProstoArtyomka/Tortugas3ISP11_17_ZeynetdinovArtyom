@@ -195,9 +195,6 @@
         <ListView 
             x:Name="listBook"
             Grid.Row="3"
-            KeyUp="listBook_KeyUp"
-            SelectionChanged="listBook_SelectionChanged" 
-            MouseDoubleClick="listBook_MouseDoubleClick"
             ScrollViewer.HorizontalScrollBarVisibility="Disabled"
             Background="{x:Null}"
             BorderBrush="{x:Null}" Margin="59,0,65,10">

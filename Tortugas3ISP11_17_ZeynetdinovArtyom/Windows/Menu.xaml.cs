@@ -51,7 +51,9 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
 
         private void Order_Click(object sender, RoutedEventArgs e)
         {
-
+            Order mainWindow = new Order();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }

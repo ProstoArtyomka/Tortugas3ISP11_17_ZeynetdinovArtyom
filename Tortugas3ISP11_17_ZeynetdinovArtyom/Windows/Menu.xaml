@@ -87,7 +87,7 @@
             Source="/ImageMenu/Salad.png"
                 Stretch="Fill"/>
         </Button>
-        <Label x:Name="Title"
+        <Label x:Name="Titles"
                Content="Пицца"
                HorizontalAlignment="Center"
                HorizontalContentAlignment="Center"
@@ -142,9 +142,6 @@
         <ListView 
             x:Name="listBook"
             Grid.Row="3"
-            KeyUp="listBook_KeyUp"
-            SelectionChanged="listBook_SelectionChanged" 
-            MouseDoubleClick="listBook_MouseDoubleClick"
             ScrollViewer.HorizontalScrollBarVisibility="Disabled"
             Background="{x:Null}"
             BorderBrush="{x:Null}" Margin="59,0.111,59.333,-0.111">
