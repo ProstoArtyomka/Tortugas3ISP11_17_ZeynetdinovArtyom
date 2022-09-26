@@ -36,7 +36,7 @@
           <Property Name="NameProduct" Type="nvarchar" MaxLength="100" Nullable="false" />
           <Property Name="Cost" Type="int" Nullable="false" />
           <Property Name="Weight" Type="int" Nullable="false" />
-          <Property Name="Compound" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Compound" Type="nvarchar" MaxLength="1000" Nullable="false" />
           <Property Name="Description" Type="nvarchar" MaxLength="1000" Nullable="false" />
           <Property Name="IDCategoryProduct" Type="int" Nullable="false" />
           <Property Name="Photo" Type="nvarchar(max)" Nullable="false" />
@@ -283,7 +283,7 @@
             <End Role="Product" EntitySet="Product" />
             <End Role="ProductOrder" EntitySet="ProductOrder" />
           </AssociationSet>
-        </EntityContainer>
+          </EntityContainer>
         <ComplexType Name="sp_helpdiagramdefinition_Result">
           <Property Type="Int32" Name="version" Nullable="true" />
           <Property Type="Binary" Name="definition" Nullable="true" />
@@ -331,7 +331,7 @@
           <Property Name="NameProduct" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="Cost" Type="Int32" Nullable="false" />
           <Property Name="Weight" Type="Int32" Nullable="false" />
-          <Property Name="Compound" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Compound" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
           <Property Name="Description" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
           <Property Name="IDCategoryProduct" Type="Int32" Nullable="false" />
           <Property Name="Photo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -453,7 +453,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-      </Schema>
+        </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
@@ -565,7 +565,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-        </EntityContainerMapping>
+          </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
   </edmx:Runtime>
