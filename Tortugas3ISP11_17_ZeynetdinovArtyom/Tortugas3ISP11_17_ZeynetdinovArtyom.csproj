@@ -202,6 +202,10 @@
       <DependentUpon>BD.edmx</DependentUpon>
       <LastGenOutput>BD.cs</LastGenOutput>
     </Content>
+    <Resource Include="ImageMenu\ON\SaladON.png" />
+    <Resource Include="ImageMenu\ON\SnackON.png" />
+    <Resource Include="ImageMenu\ON\DrinkON.png" />
+    <Resource Include="ImageMenu\ON\BurgerON.png" />
     <Resource Include="Image\Promocode2.png" />
     <Resource Include="Image\Promocode.png" />
     <Resource Include="Image\Payment.png" />
@@ -228,11 +232,11 @@
     <Resource Include="ImageProduct\Burger\FiletOFish.png" />
     <Resource Include="ImageProduct\Burger\BigTasty.png" />
     <Resource Include="ImageProduct\Burger\BigMac.png" />
-    <Resource Include="ImageMenu\Salad.png" />
-    <Resource Include="ImageMenu\Snack.png" />
-    <Resource Include="ImageMenu\Drink.png" />
-    <Resource Include="ImageMenu\Pizza.png" />
-    <Resource Include="ImageMenu\Burger.png" />
+    <Resource Include="ImageMenu\OFF\SaladOFF.png" />
+    <Resource Include="ImageMenu\OFF\SnackOFF.png" />
+    <Resource Include="ImageMenu\OFF\DrinkOFF.png" />
+    <Resource Include="ImageMenu\ON\PizzaON.png" />
+    <Resource Include="ImageMenu\OFF\BurgerOFF.png" />
     <Resource Include="Image\Logo.png" />
     <Resource Include="Image\TestTable.png" />
     <Resource Include="Montserrat\COPYRIGHT.txt" />

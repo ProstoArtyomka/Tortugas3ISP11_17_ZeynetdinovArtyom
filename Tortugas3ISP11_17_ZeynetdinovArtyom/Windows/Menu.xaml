@@ -32,7 +32,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Burger_Click">
             <Image 
-            Source="/ImageMenu/Burger.png"
+            Source="/ImageMenu/OFF/BurgerOFF.png"
                 Stretch="Fill"/>
         </Button>
         <Button
@@ -45,7 +45,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Pizza_Click">
             <Image 
-            Source="/ImageMenu/Pizza.png"
+            Source="/ImageMenu/ON/PizzaON.png"
                 Stretch="Fill"/>
         </Button>
         <Button
@@ -58,7 +58,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Drink_Click">
             <Image 
-            Source="/ImageMenu/Drink.png"
+            Source="/ImageMenu/OFF/DrinkOFF.png"
                 Stretch="Fill"/>
         </Button>
         <Button
@@ -71,7 +71,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Snack_Click">
             <Image 
-            Source="/ImageMenu/Snack.png"
+            Source="/ImageMenu/OFF/SnackOFF.png"
                 Stretch="Fill"/>
         </Button>
         <Button
@@ -84,7 +84,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Salad_Click">
             <Image 
-            Source="/ImageMenu/Salad.png"
+            Source="/ImageMenu/OFF/SaladOFF.png"
                 Stretch="Fill"/>
         </Button>
         <Label x:Name="Titles"

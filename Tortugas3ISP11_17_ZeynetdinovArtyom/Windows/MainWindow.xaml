@@ -36,7 +36,7 @@
         <Button
             x:Name="Table"
             Grid.Row="2"
-            Margin="0,34.111,628.333,466.889"
+            Margin="0,34.111,637.333,466.889"
             BorderBrush="{x:Null}" 
             Foreground="{x:Null}" 
             Background="{x:Null}"
