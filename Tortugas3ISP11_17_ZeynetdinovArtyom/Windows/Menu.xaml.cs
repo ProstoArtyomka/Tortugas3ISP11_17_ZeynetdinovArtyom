@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tortugas3ISP11_17_ZeynetdinovArtyom.ClassHelper;
+using Tortugas3ISP11_17_ZeynetdinovArtyom.BD;
 
 namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
 {
@@ -19,9 +21,13 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
     /// </summary>
     public partial class Menu : Window
     {
+        List<Product> productList = new List<Product>();
+
         public Menu()
         {
             InitializeComponent();
+
+            listProduct.ItemsSource = AppData.Context.Product.ToList();
         }
 
         private void Burger_Click(object sender, RoutedEventArgs e)

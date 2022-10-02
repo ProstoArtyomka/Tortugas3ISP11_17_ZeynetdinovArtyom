@@ -47,7 +47,6 @@
                 Stretch="Fill" Height="109" Width="239"/>
         </Button>
         <Grid.ColumnDefinitions>
-
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>

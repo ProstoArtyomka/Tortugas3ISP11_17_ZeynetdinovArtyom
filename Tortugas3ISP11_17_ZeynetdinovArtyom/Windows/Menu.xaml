@@ -139,24 +139,138 @@
                Margin="711,19.889,85.333,16.889"
                FontSize="25"
                />
-        <ListView 
-            x:Name="listBook"
-            Grid.Row="3"
-            ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-            Background="{x:Null}"
-            BorderBrush="{x:Null}" Margin="59,0.111,59.333,-0.111">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Название продукта" Width="200" DisplayMemberBinding="{Binding NameProduct}"/>
-                    <GridViewColumn Header="Цена продукта" Width="100" DisplayMemberBinding="{Binding Cost}"/>
-                    <GridViewColumn Header="Фото продукта" Width="400" DisplayMemberBinding="{Binding Photo}"/>
-                </GridView>
-            </ListView.View> >
+        <ListView x:Name="listProduct"
+                  Grid.Row="3"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  Background="{x:Null}" 
+                  BorderBrush="{x:Null}"
+                  Margin="56,10,59,10"
+                  >
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel/>
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+
+                <DataTemplate>
+                    <Border 
+                        Background="White"
+                        Width="210"
+                        Height="290"
+                        BorderThickness="1"
+                        CornerRadius="35">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*"/>
+                                <ColumnDefinition Width="8*"/>
+                                <ColumnDefinition Width="5*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock 
+                    Text="₽"
+                    Grid.Row="4"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="Black"
+                    FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold"
+                    Margin="61,21.2,12,7.8" 
+                    Width="31"
+                    FontSize="18"
+                    Height="30"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    Grid.Column="1"/>
+
+                            <Button
+                    x:Name="Information" 
+                    Grid.Row="4"
+                    Background="{x:Null}" 
+                    BorderBrush="{x:Null}"
+                    Foreground="{x:Null}"
+                    Style="{StaticResource MyButtonStyle}" Margin="-3,3.25,0,-3.25"
+                    >
+                                <Image
+                        Source="/Image/Info.png"
+                        Stretch="Fill"
+                        />
+                            </Button>
+                            <Button
+                    x:Name="AddProduct" 
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Background="{x:Null}" 
+                    BorderBrush="{x:Null}"
+                    Foreground="{x:Null}"
+                    Style="{StaticResource MyButtonStyle}"
+                    Margin="86,46.5,-3,-16"
+                    Grid.RowSpan="2"
+                    Grid.ColumnSpan="2"
+                    >
+                                <Image
+                        Source="/Image/AddProduct.png"
+                        Stretch="Fill" 
+                        />
+                            </Button>
+                            <Image
+                    Source="/ImageProduct/Pizza/Pepperoni.png"
+                    Stretch="Fill"
+                    Grid.ColumnSpan="3"
+                    Margin="26,5,26,53.8"
+                    Grid.Row="1"
+                    Grid.RowSpan="4"/>
+
+                            <TextBlock 
+                    Text="{Binding Path=NameProduct}"
+                    Grid.Row="0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="Black"
+                    FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat ExtraBold"
+                    Margin="7,6,7,25"
+                    Grid.ColumnSpan="3" 
+                    Width="214"
+                    FontSize="18"
+                    Height="72"
+                    TextAlignment="Center" 
+                    Grid.RowSpan="2"
+                    TextWrapping="Wrap" />
+
+                            <TextBlock 
+                    Text="{Binding Path=Cost}"
+                    Grid.Row="4"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="Black"
+                    FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold"
+                    Margin="0,21.2,19,6.8" 
+                    Width="85"
+                    FontSize="18"
+                    Height="31"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap" 
+                    Grid.Column="1" />
+
+
+                            <TextBlock 
+                    Text="{Binding Path=Photo}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Grid.ColumnSpan="3"
+                    Margin="26,5,26,53.8"
+                    Grid.Row="1"
+                    Grid.RowSpan="4" />
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
