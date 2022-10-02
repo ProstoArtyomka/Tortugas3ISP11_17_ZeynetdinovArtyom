@@ -64,8 +64,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ClassHelper\AppData.cs" />
     <Compile Include="Windows\Expectation.xaml.cs">
       <DependentUpon>Expectation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Information.xaml.cs">
+      <DependentUpon>Information.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
@@ -74,6 +78,10 @@
       <DependentUpon>Order.xaml</DependentUpon>
     </Compile>
     <Page Include="Windows\Expectation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Information.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -209,6 +217,11 @@
       <DependentUpon>BD.edmx</DependentUpon>
       <LastGenOutput>BD.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\+-.png" />
+    <Resource Include="Image\Back.png" />
+    <Resource Include="Image\Add.png" />
+    <Resource Include="Image\Description.png" />
+    <Resource Include="Image\Menu.png" />
     <Resource Include="ImageMenu\ON\SaladON.png" />
     <Resource Include="ImageMenu\ON\SnackON.png" />
     <Resource Include="ImageMenu\ON\DrinkON.png" />

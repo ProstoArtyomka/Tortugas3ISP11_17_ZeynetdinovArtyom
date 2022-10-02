@@ -18,11 +18,12 @@
         <Image 
             Source="/Image/Background.png"
             Stretch="Fill"
-            Grid.RowSpan="3" Margin="0,0,0.333,-0.111"/>
+            Grid.RowSpan="3" />
         <Image 
-            Source="/Image/Logo.png" Margin="0,0,0.333,1.111"/>
+            Source="/Image/Logo.png" />
         <Label x:Name="Текст"
-               Content="                          Добро пожаловать! Выберите свободный столик и проследуйте                               за официантом"
+               Content="                          Добро пожаловать!&#10;Выберите свободный столик и проследуйте&#10; 
+                            за официантом"
                HorizontalAlignment="Center"
                HorizontalContentAlignment="Center"
                VerticalContentAlignment="Center"

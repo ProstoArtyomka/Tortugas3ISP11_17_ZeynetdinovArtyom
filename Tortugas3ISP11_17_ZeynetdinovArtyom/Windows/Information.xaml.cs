@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для Expectation.xaml
+    /// Логика взаимодействия для Information.xaml
     /// </summary>
-    public partial class Expectation : Window
+    public partial class Information : Window
     {
-        public Expectation()
+        public Information()
         {
             InitializeComponent();
-        }
-
-        private void Menu_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

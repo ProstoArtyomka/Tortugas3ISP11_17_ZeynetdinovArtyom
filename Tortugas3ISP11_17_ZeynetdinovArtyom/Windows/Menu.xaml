@@ -18,9 +18,9 @@
         <Image 
             Source="/Image/Background.png"
             Stretch="Fill"
-            Grid.RowSpan="4" Margin="0,0,0.333,-0.111"/>
+            Grid.RowSpan="4" />
         <Image 
-            Source="/Image/Logo.png" Margin="0,0,0.333,0.111" 
+            Source="/Image/Logo.png" 
             />
         <Button
             x:Name="Burger"

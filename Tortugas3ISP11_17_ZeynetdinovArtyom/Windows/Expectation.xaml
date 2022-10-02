@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tortugas3ISP11_17_ZeynetdinovArtyom.Windows"
         mc:Ignorable="d"
-        Title="Expectation" Height="1112"
+        Title="Expectation" 
+        Height="1112"
         Width="834"
         WindowStartupLocation="CenterScreen"
         MaxHeight="1112"
@@ -17,31 +18,41 @@
         <Image 
             Source="/Image/Background.png"
             Stretch="Fill"
-            Grid.RowSpan="3" Margin="0,0,0.333,-0.111"/>
+            Grid.RowSpan="2"/>
         <Image 
-            Source="/Image/Logo.png" Margin="0,0,0.333,1.111"/>
+            Source="/Image/Logo.png" />
         <Label x:Name="Текст"
-               Content="Спасибо за ваш заказ! Ожидайте официанта в ближайшее время,
-приятного аппетита!"
+               Content="  Спасибо за ваш заказ! Ожидайте официанта в &#10;    ближайшее время,&#10;
+  приятного аппетита!"
                HorizontalAlignment="Center"
                HorizontalContentAlignment="Center"
                VerticalContentAlignment="Center"
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
                Foreground="White" 
-               FontSize="31" 
-               Margin="5,195,5.333,711.889"
-               Grid.RowSpan="3"
-               Width="819"
+               FontSize="60" 
+               Margin="3,19,4,516"
+               Width="819" Grid.Row="1"
                />
-
+        <Button
+            x:Name="Menu"
+            Grid.Row="1"
+            Margin="290,714,281,40"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Menu_Click" 
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/Menu.png"
+                Stretch="Fill" Height="109" Width="239"/>
+        </Button>
         <Grid.ColumnDefinitions>
-          
-  <ColumnDefinition Width="*"/>
+
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="207*"/>
-            <RowDefinition Height="166*"/>
-            <RowDefinition Height="712*"/>
+            <RowDefinition Height="206*"/>
+            <RowDefinition Height="875*"/>
         </Grid.RowDefinitions>
     </Grid>
 </Window>
