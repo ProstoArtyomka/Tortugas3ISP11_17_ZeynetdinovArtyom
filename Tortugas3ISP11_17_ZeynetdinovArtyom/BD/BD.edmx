@@ -39,7 +39,7 @@
           <Property Name="Compound" Type="nvarchar" MaxLength="1000" Nullable="false" />
           <Property Name="Description" Type="nvarchar" MaxLength="1000" Nullable="false" />
           <Property Name="IDCategoryProduct" Type="int" Nullable="false" />
-          <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+          <Property Name="Photo" Type="nvarchar(max)" Nullable="false" />
         </EntityType>
         <EntityType Name="ProductOrder">
           <Key>
@@ -334,7 +334,7 @@
           <Property Name="Compound" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
           <Property Name="Description" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
           <Property Name="IDCategoryProduct" Type="Int32" Nullable="false" />
-          <Property Name="Photo" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="Photo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="CategoryProduct" Relationship="Tortugas_3ISP11_17_ZeynetdinovModel.FK_Product_CategoryProduct" FromRole="Product" ToRole="CategoryProduct" />
           <NavigationProperty Name="ProductOrder" Relationship="Tortugas_3ISP11_17_ZeynetdinovModel.FK_ProductOrder_Product" FromRole="Product" ToRole="ProductOrder" />
         </EntityType>

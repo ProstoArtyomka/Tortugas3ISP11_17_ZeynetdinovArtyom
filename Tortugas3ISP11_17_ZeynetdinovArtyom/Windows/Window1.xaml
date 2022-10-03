@@ -13,8 +13,9 @@
                         Background="White"
                         Width="210"
                         Height="290"
-                        BorderThickness="1"
-                        CornerRadius="35">
+                        BorderThickness="2"
+            BorderBrush="Yellow"
+                        CornerRadius="30">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="5*"/>
@@ -36,7 +37,7 @@
                     VerticalAlignment="Center"
                     Foreground="Black"
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold"
-                    Margin="61,21.2,12,7.8" 
+                    Margin="51.667,20.667,8.889,6.667" 
                     Width="31"
                     FontSize="18"
                     Height="30"
