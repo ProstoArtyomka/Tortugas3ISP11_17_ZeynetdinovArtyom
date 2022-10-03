@@ -32,6 +32,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Burger_Click">
             <Image 
+                x:Name="BurgerPhoto"
             Source="/ImageMenu/OFF/BurgerOFF.png"
                 Stretch="Fill"/>
         </Button>
@@ -45,6 +46,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Pizza_Click">
             <Image 
+                 x:Name="PizzaPhoto"
             Source="/ImageMenu/ON/PizzaON.png"
                 Stretch="Fill"/>
         </Button>
@@ -58,6 +60,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Drink_Click">
             <Image 
+                x:Name="DrinkPhoto"
             Source="/ImageMenu/OFF/DrinkOFF.png"
                 Stretch="Fill"/>
         </Button>
@@ -71,6 +74,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Snack_Click">
             <Image 
+                x:Name="SnackPhoto"
             Source="/ImageMenu/OFF/SnackOFF.png"
                 Stretch="Fill"/>
         </Button>
@@ -84,6 +88,7 @@
             Style="{StaticResource MyButtonStyle}"
             Click="Salad_Click">
             <Image 
+                 x:Name="SaladPhoto"
             Source="/ImageMenu/OFF/SaladOFF.png"
                 Stretch="Fill"/>
         </Button>
@@ -118,13 +123,13 @@
         <Label x:Name="CostOrder"
                Content="0"
                HorizontalAlignment="Center"
-               HorizontalContentAlignment="Left"
+               HorizontalContentAlignment="Right"
                VerticalContentAlignment="Center"
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold" 
                Foreground="White"
-               Width="33" 
+               Width="101" 
                Grid.Row="2" 
-               Margin="685,19.889,111.333,16.889"
+               Margin="649,20,76,17"
                FontSize="25"
                />
         <Label
@@ -136,7 +141,7 @@
                Foreground="White"
                Width="33" 
                Grid.Row="2" 
-               Margin="711,19.889,85.333,16.889"
+               Margin="750,20,43,17"
                FontSize="25"
                />
         <ListView x:Name="listProduct"
@@ -144,7 +149,7 @@
                   ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                   Background="{x:Null}" 
                   BorderBrush="{x:Null}"
-                  Margin="37,10.111,40.333,9.889"
+                  Margin="56,10,10,10"
                   >
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -152,7 +157,6 @@
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
             <ListView.ItemTemplate>
-
                 <DataTemplate>
                     <Border 
                         Background="White"
@@ -183,7 +187,7 @@
                     VerticalAlignment="Center"
                     Foreground="Black"
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold"
-                    Margin="51.667,20.667,8.889,6.667"
+                    Margin="58,20,3,7" 
                     Width="31"
                     FontSize="18"
                     Height="30"
@@ -192,7 +196,8 @@
                     Grid.Column="1"/>
 
                             <Button
-                    x:Name="Information" 
+                    x:Name="Information"
+                                Click="Information_Click"
                     Grid.Row="4"
                     Background="{x:Null}" 
                     BorderBrush="{x:Null}"
@@ -206,6 +211,7 @@
                             </Button>
                             <Button
                     x:Name="AddProduct" 
+                                Click="AddProduct_Click"
                     Grid.Row="3"
                     Grid.Column="1"
                     Background="{x:Null}" 

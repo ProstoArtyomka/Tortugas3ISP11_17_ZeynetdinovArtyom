@@ -22,7 +22,7 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.BD
     
         public int ID { get; set; }
         public string NameProduct { get; set; }
-        public int Cost { get; set; }
+        public decimal Cost { get; set; }
         public int Weight { get; set; }
         public string Compound { get; set; }
         public string Description { get; set; }

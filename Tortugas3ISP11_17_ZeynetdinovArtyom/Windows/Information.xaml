@@ -22,6 +22,7 @@
         <Image 
             Source="/Image/Logo.png"/>
         <Image 
+            x:Name="ImageProduct"
             Source="/ImageProduct/Pizza/Pepperoni.png"
             Margin="27,40,473,513"
             Stretch="Fill"
@@ -47,7 +48,7 @@
                     x:Name="NameProduct"
                     Content="Пепперони" 
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat ExtraBold"
-                    FontSize="50"
+                    FontSize="45"
                     Margin="10"
                     Grid.ColumnSpan="2"
                     />
@@ -70,10 +71,11 @@
                     Content="Описание" 
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat ExtraBold"
                     FontSize="35"
-                    Margin="13,29,0,378"
-                    Grid.Row="1"
+                    Margin="13,29,202,378"
+                    Grid.Row="1" Grid.ColumnSpan="2"
                     />
                 <TextBlock
+                    x:Name="DescriptionProduct"
                     Text="Ля-ля-ля" 
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Light"
                     FontSize="20"

@@ -13,8 +13,9 @@
                         Background="White"
                         Width="210"
                         Height="290"
+                        Margin="10"
                         BorderThickness="2"
-            BorderBrush="Yellow"
+                        BorderBrush="Yellow"
                         CornerRadius="30">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -37,7 +38,7 @@
                     VerticalAlignment="Center"
                     Foreground="Black"
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold"
-                    Margin="51.667,20.667,8.889,6.667" 
+                    Margin="58,20,3,7" 
                     Width="31"
                     FontSize="18"
                     Height="30"
@@ -76,7 +77,7 @@
                         />
                 </Button>
                 <Image
-                    Source="/ImageProduct/Pizza/Pepperoni.png"
+                    Source="{Binding Path=Photo}"
                     Stretch="Fill"
                     Grid.ColumnSpan="3"
                     Margin="26,5,26,53.8"
@@ -90,10 +91,10 @@
                     VerticalAlignment="Center"
                     Foreground="Black"
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat ExtraBold"
-                    Margin="10,9,10,35"
+                    Margin="7,6,7,25"
                     Grid.ColumnSpan="3" 
-                    Width="188"
-                    FontSize="15"
+                    Width="214"
+                    FontSize="18"
                     Height="72"
                     TextAlignment="Center" 
                     Grid.RowSpan="2"
@@ -113,16 +114,6 @@
                     TextAlignment="Center"
                     TextWrapping="Wrap" 
                     Grid.Column="1" />
-
-
-                <TextBlock 
-                    Text="{Binding Path=Photo}"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Center"
-                    Grid.ColumnSpan="3"
-                    Margin="26,5,26,53.8"
-                    Grid.Row="1"
-                    Grid.RowSpan="4" />
             </Grid>
         </Border>
     </Grid>
