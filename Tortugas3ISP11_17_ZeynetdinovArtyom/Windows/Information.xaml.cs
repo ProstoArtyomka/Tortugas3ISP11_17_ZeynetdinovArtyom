@@ -19,23 +19,17 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
     /// </summary>
     public partial class Information : Window
     {
-        BD.Product editProduct = new BD.Product();
-        public Information(BD.Product product)
+        BD.Product editProd = new BD.Product();
+        public Information(BD.Product editProduct)
         {
             InitializeComponent();
+            editProd = editProduct;
 
-            editProduct = product;
+            editProd.NameProduct = Convert.ToString(NameProduct.Content);
+            editProd.Cost = Convert.ToDecimal(CostProduct.Content);
+            editProd.Description = DescriptionProduct.Text;
+            editProd.Photo = Convert.ToString(ImageProduct.Source);
 
-        }
-
-        public Information()
-        {
-            InitializeComponent();
-
-            editProduct.NameProduct = Convert.ToString(NameProduct.Content);
-            editProduct.Cost = Convert.ToDecimal(CostProduct.Content);
-            editProduct.Description = DescriptionProduct.Text;
-            editProduct.Photo = Convert.ToString(ImageProduct.Source);
         }
      }
 }

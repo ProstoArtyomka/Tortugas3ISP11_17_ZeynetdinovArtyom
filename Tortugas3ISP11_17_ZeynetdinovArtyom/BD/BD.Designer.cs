@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\ARTEM\Source\Repos\Tortugas3ISP11_17_ZeynetdinovArtyom\Tortugas3ISP11_17_ZeynetdinovArtyom\BD\BD.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\IMac8\Source\Repos\Tortugas3ISP11_17_ZeynetdinovArtyom\Tortugas3ISP11_17_ZeynetdinovArtyom\BD\BD.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.
