@@ -84,6 +84,11 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             myImage5.Source = bi5;
             BurgerPhoto.Source = bi5;
 
+            Titles.Content = "Бургеры";
+
+            productList = AppData.Context.Product.ToList();
+            productList = productList.Where(i => i.IDCategoryProduct == 1).ToList();
+            listProduct.ItemsSource = productList;
         }
 
         private void Pizza_Click(object sender, RoutedEventArgs e)
@@ -132,6 +137,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             myImage5.Stretch = Stretch.Fill;
             myImage5.Source = bi5;
             PizzaPhoto.Source = bi5;
+
+            Titles.Content = "Пиццы";
+
+            productList = AppData.Context.Product.ToList();
+            productList = productList.Where(i => i.IDCategoryProduct == 2).ToList();
+            listProduct.ItemsSource = productList;
         }
 
         private void Drink_Click(object sender, RoutedEventArgs e)
@@ -180,6 +191,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             myImage5.Stretch = Stretch.Fill;
             myImage5.Source = bi5;
             DrinkPhoto.Source = bi5;
+
+            Titles.Content = "Напитки";
+
+            productList = AppData.Context.Product.ToList();
+            productList = productList.Where(i => i.IDCategoryProduct == 3).ToList();
+            listProduct.ItemsSource = productList;
         }
 
         private void Snack_Click(object sender, RoutedEventArgs e)
@@ -228,6 +245,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             myImage5.Stretch = Stretch.Fill;
             myImage5.Source = bi5;
             SnackPhoto.Source = bi5;
+
+            Titles.Content = "Закуски";
+
+            productList = AppData.Context.Product.ToList();
+            productList = productList.Where(i => i.IDCategoryProduct == 4).ToList();
+            listProduct.ItemsSource = productList;
         }
 
         private void Salad_Click(object sender, RoutedEventArgs e)
@@ -276,6 +299,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             myImage5.Stretch = Stretch.Fill;
             myImage5.Source = bi5;
             SaladPhoto.Source = bi5;
+
+            Titles.Content = "Салаты";
+
+            productList = AppData.Context.Product.ToList();
+            productList = productList.Where(i => i.IDCategoryProduct == 5).ToList();
+            listProduct.ItemsSource = productList;
         }
 
         private void Order_Click(object sender, RoutedEventArgs e)

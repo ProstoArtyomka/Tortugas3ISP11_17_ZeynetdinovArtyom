@@ -47,7 +47,7 @@
             Click="Pizza_Click">
             <Image 
                  x:Name="PizzaPhoto"
-            Source="/ImageMenu/ON/PizzaON.png"
+            Source="/ImageMenu/OFF/PizzaOFF.png"
                 Stretch="Fill"/>
         </Button>
         <Button
@@ -93,15 +93,15 @@
                 Stretch="Fill"/>
         </Button>
         <Label x:Name="Titles"
-               Content="Пицца"
+               Content="Меню"
                HorizontalAlignment="Center"
-               HorizontalContentAlignment="Center"
+               HorizontalContentAlignment="Left"
                VerticalContentAlignment="Center"
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
                Foreground="White"
-               Width="181" 
+               Width="250" 
                Grid.Row="2" 
-               Margin="58,6.889,590.333,8.889"
+               Margin="53,6.889,526.333,8.889"
                FontSize="40"
                />
         <Button x:Name="Order"
@@ -210,7 +210,7 @@
                         />
                             </Button>
                             <Button
-                    x:Name="AddProduct" 
+                    x:Name="AddProduct"
                                 Click="AddProduct_Click"
                     Grid.Row="3"
                     Grid.Column="1"
