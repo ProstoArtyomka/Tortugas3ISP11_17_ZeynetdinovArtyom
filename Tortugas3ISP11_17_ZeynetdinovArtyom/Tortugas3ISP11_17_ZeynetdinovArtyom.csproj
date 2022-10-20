@@ -258,7 +258,7 @@
     <Resource Include="ImageMenu\ON\PizzaON.png" />
     <Resource Include="ImageMenu\OFF\BurgerOFF.png" />
     <Resource Include="Image\Logo.png" />
-    <Resource Include="Image\TestTable.png" />
+    <Resource Include="Image\NumberTable\Table1.png" />
     <Resource Include="Montserrat\COPYRIGHT.txt" />
     <Resource Include="Montserrat\LICENSE.txt" />
   </ItemGroup>
@@ -276,6 +276,16 @@
       <DependentUpon>BD.edmx</DependentUpon>
       <LastGenOutput>BD.cs</LastGenOutput>
     </Content>
+    <Resource Include="Image\NumberTable\Table10.png" />
+    <Resource Include="Image\NumberTable\Table11.png" />
+    <Resource Include="Image\NumberTable\Table2.png" />
+    <Resource Include="Image\NumberTable\Table3.png" />
+    <Resource Include="Image\NumberTable\Table4.png" />
+    <Resource Include="Image\NumberTable\Table5.png" />
+    <Resource Include="Image\NumberTable\Table6.png" />
+    <Resource Include="Image\NumberTable\Table7.png" />
+    <Resource Include="Image\NumberTable\Table8.png" />
+    <Resource Include="Image\NumberTable\Table9.png" />
     <Resource Include="ImageMenu\OFF\PizzaOFF.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

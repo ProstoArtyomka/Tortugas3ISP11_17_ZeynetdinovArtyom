@@ -35,18 +35,160 @@
                Width="819"
                />
         <Button
-            x:Name="Table"
+            x:Name="Table1"
             Grid.Row="2"
             Margin="0,34.111,637.333,466.889"
             BorderBrush="{x:Null}" 
             Foreground="{x:Null}" 
             Background="{x:Null}"
-            Click="Table_Click"
+            Click="Table1_Click"
             Style="{StaticResource MyButtonStyle}">
             <Image 
-            Source="/Image/TestTable.png"
+            Source="/Image/NumberTable/Table1.png"
                 Stretch="Fill"/>
         </Button>
+
+        <Button
+            x:Name="Table2"
+            Grid.Row="2"
+            Margin="180,34.111,457.333,466.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table2_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table2.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table3"
+            Grid.Row="2"
+            Margin="354,34.111,283.333,466.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table3_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table3.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table4"
+            Grid.Row="2"
+            Margin="624,31.111,17.333,458.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table4_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table4.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table5"
+            Grid.Row="2"
+            Margin="0,261.111,637.333,239.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table5_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table5.png"
+                Stretch="Fill"/>
+        </Button>
+        
+        <Button
+            x:Name="Table6"
+            Grid.Row="2"
+            Margin="180,261.111,457.333,239.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table6_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table6.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table7"
+            Grid.Row="2"
+            Margin="354,261.111,283.333,239.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table7_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table7.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table8"
+            Grid.Row="2"
+            Margin="608,261.111,29.333,239.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table8_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table8.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table9"
+            Grid.Row="2"
+            Margin="0,483.111,637.333,17.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table9_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table9.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table10"
+            Grid.Row="2"
+            Margin="220,493.111,347.333,27.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table10_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table10.png"
+                Stretch="Fill"/>
+        </Button>
+
+        <Button
+            x:Name="Table11"
+            Grid.Row="2"
+            Margin="608,483.111,29.333,17.889"
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}" 
+            Background="{x:Null}"
+            Click="Table11_Click"
+            Style="{StaticResource MyButtonStyle}">
+            <Image 
+            Source="/Image/NumberTable/Table11.png"
+                Stretch="Fill"/>
+        </Button>
+
+
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>

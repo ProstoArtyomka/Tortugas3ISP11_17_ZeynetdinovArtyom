@@ -27,11 +27,66 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom
             InitializeComponent();
         }
 
-        private void Table_Click(object sender, RoutedEventArgs e)
+        private void Table1_Click(object sender, RoutedEventArgs e)
         {
             Menu mainWindow = new Menu();
             mainWindow.Show();
             this.Close();
+        }
+
+        private void Table2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table9_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Table10_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
