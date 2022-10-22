@@ -321,7 +321,6 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             {
                 editProduct = listProduct.SelectedItem as BD.Product;
             }
-
             Information info = new Information(editProduct);
             this.Opacity = 0.2;
             info.ShowDialog();
