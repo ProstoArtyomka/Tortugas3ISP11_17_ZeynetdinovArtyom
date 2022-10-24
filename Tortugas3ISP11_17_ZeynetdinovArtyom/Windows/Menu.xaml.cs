@@ -307,6 +307,13 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             listProduct.ItemsSource = productList;
         }
 
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
+
         private void Order_Click(object sender, RoutedEventArgs e)
         {
             Order mainWindow = new Order();
@@ -325,7 +332,7 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             Information info = new Information(editProduct);
             this.Opacity = 0.2;
             info.ShowDialog();
-            listProduct.ItemsSource = AppData.Context.Product.ToList();
+            productList = AppData.Context.Product.ToList();
             this.Opacity = 1;
         }
 
@@ -333,5 +340,6 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
         {
 
         }
+
     }
 }

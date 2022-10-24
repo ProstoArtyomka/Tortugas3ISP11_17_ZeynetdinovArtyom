@@ -104,6 +104,22 @@
                Margin="53,6.889,526.333,8.889"
                FontSize="40"
                />
+        <Button x:Name="Back"
+                Content="Назад"
+                Click="Back_Click"
+                HorizontalAlignment="Center"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black" 
+                BorderBrush="{x:Null}" 
+                Foreground="White" 
+                Background="{x:Null}"
+                Style="{StaticResource MyButtonStyle}"
+                Width="140" 
+                Grid.Row="2" 
+                 Margin="280,6.889,409.333,8.889"
+                FontSize="40"
+                />
         <Button x:Name="Order"
                 Click="Order_Click"
                 Content="Заказ"
@@ -127,9 +143,9 @@
                VerticalContentAlignment="Center"
                FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold" 
                Foreground="White"
-               Width="101" 
+               Width="113" 
                Grid.Row="2" 
-               Margin="649,20,76,17"
+               Margin="647,19.889,69.333,16.889"
                FontSize="25"
                />
         <Label
@@ -141,7 +157,7 @@
                Foreground="White"
                Width="33" 
                Grid.Row="2" 
-               Margin="750,20,43,17"
+               Margin="761,19.889,35.333,16.889"
                FontSize="25"
                />
         <ListView x:Name="listProduct"
