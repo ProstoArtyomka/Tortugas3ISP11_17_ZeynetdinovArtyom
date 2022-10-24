@@ -57,15 +57,15 @@
                     Content="1450" 
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black"
                     FontSize="50"
-                    Margin="13,67,53,406" 
+                    Margin="13,67,0,406.111" 
                     Grid.RowSpan="2"
                     />
                 <Label
                     Content="₽" 
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat Black"
                     FontSize="50"
-                    Margin="153,67,0,423" 
-                    Grid.RowSpan="2"
+                    Margin="0.111,67,152.556,423.111" 
+                    Grid.RowSpan="2" Grid.Column="1"
                     />
                 <Label
                     Content="Описание" 
@@ -127,6 +127,7 @@
                     </Grid>
                 </Border>
                 <Button x:Name="Back"
+                        Click="Back_Click"
                         Grid.Row="3" 
                         Background="{x:Null}"
                         BorderBrush="{x:Null}"

@@ -316,11 +316,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
 
         private void Information_Click(object sender, RoutedEventArgs e)
         {
-            var editProduct = new BD.Product();
-            if (listProduct.SelectedItem is BD.Product)
+            var button = sender as Button;
+            if (button == null)
             {
-                editProduct = listProduct.SelectedItem as BD.Product;
+                return;
             }
+            var editProduct = button.DataContext as Product;
             Information info = new Information(editProduct);
             this.Opacity = 0.2;
             info.ShowDialog();

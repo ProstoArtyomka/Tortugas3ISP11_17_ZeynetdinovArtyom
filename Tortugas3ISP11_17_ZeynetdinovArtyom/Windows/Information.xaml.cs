@@ -25,12 +25,23 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             InitializeComponent();
             editProd = editProduct;
 
-            editProd.NameProduct = Convert.ToString(NameProduct.Content);
-            editProd.Cost = Convert.ToDecimal(CostProduct.Content);
-            editProd.Description = DescriptionProduct.Text;
-            editProd.Photo = Convert.ToString(ImageProduct.Source);
+            NameProduct.Content = editProd.NameProduct;
+            CostProduct.Content = editProd.Cost;
+            DescriptionProduct.Text = editProd.Description;
 
-
+            Image myImage = new Image();
+            BitmapImage bit = new BitmapImage();
+            bit.BeginInit();
+            bit.UriSource = new Uri(editProd.Photo, UriKind.Relative);
+            bit.EndInit();
+            myImage.Stretch = Stretch.Fill;
+            myImage.Source = bit;
+            ImageProduct.Source = bit;
         }
-     }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+    }
 }
