@@ -102,6 +102,7 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom
             Menu mainWindow = new Menu();
             mainWindow.Show();
             this.Close();
+
         }
 
     }

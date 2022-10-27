@@ -191,7 +191,6 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
             myImage5.Stretch = Stretch.Fill;
             myImage5.Source = bi5;
             DrinkPhoto.Source = bi5;
-
             Titles.Content = "Напитки";
 
             productList = AppData.Context.Product.ToList();

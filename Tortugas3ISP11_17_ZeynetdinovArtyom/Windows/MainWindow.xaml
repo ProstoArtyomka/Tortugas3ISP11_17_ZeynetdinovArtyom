@@ -18,9 +18,9 @@
         <Image 
             Source="/Image/Background.png"
             Stretch="Fill"
-            Grid.RowSpan="3" />
+            Grid.RowSpan="3"/>
         <Image 
-            Source="/Image/Logo.png" />
+            Source="/Image/Logo.png"/>
         <Label x:Name="Текст"
                Content="                          Добро пожаловать!&#10;Выберите свободный столик и проследуйте&#10; 
                             за официантом"
@@ -103,7 +103,7 @@
             Source="/Image/NumberTable/Table5.png"
                 Stretch="Fill"/>
         </Button>
-        
+
         <Button
             x:Name="Table6"
             Grid.Row="2"
@@ -171,7 +171,7 @@
             Style="{StaticResource MyButtonStyle}">
             <Image 
             Source="/Image/NumberTable/Table10.png"
-                Stretch="Fill"/>
+                Stretch="Fill" Width="262"/>
         </Button>
 
         <Button
@@ -185,7 +185,7 @@
             Style="{StaticResource MyButtonStyle}">
             <Image 
             Source="/Image/NumberTable/Table11.png"
-                Stretch="Fill"/>
+                Stretch="Fill" RenderTransformOrigin="0.541,0.493" Height="189" Width="182"/>
         </Button>
 
 
