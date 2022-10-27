@@ -23,5 +23,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
         {
             InitializeComponent();
         }
+
+        private void Payment_Click(object sender, RoutedEventArgs e)
+        {
+            Expectation expectationWindow = new Expectation();
+            expectationWindow.Show();
+            this.Close();
+        }
     }
 }

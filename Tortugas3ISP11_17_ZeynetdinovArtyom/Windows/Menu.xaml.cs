@@ -339,6 +339,5 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
         {
 
         }
-
     }
 }

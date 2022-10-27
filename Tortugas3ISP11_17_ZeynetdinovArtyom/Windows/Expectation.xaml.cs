@@ -26,7 +26,9 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
 
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow menuWindow = new MainWindow();
+            menuWindow.Show();
+            this.Close();
         }
     }
 }

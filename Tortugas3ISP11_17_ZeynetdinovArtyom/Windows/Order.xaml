@@ -177,21 +177,20 @@
                Margin="709,167,84,117"
                FontSize="25"
                />
-        <Image 
+        <Button
+            x:Name="Payment"
+            Click="Payment_Click"
+            Grid.Row="4" 
+            Background="{x:Null}" 
+            BorderBrush="{x:Null}" 
+            Foreground="{x:Null}"
+            Style="{StaticResource MyButtonStyle}"
+            Margin="486,233,84,27">
+            <Image 
             Source="/Image/Payment.png"
-            Stretch="Fill"
-            Grid.Row="4" 
-            Margin="486,233,84,27"/>
-        <Image 
-            Source="/Image/Promocode.png"
-            Stretch="Fill"
-            Grid.Row="4" 
-            Margin="49,72,549,249"/>
-        <Image 
-            Source="/Image/Promocode2.png"
-            Stretch="Fill"
-            Grid.Row="4" 
-            Margin="169,72,547,249"/>
+            Stretch="Fill"/>
+        </Button>
+        
         <ListView 
             x:Name="listBook"
             Grid.Row="3"
