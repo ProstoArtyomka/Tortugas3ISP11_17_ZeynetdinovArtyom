@@ -110,6 +110,7 @@
       <DependentUpon>BD.tt</DependentUpon>
     </Compile>
     <Compile Include="ClassHelper\AppData.cs" />
+    <Compile Include="ClassHelper\ClassOrder.cs" />
     <Compile Include="Windows\Expectation.xaml.cs">
       <DependentUpon>Expectation.xaml</DependentUpon>
     </Compile>

@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tortugas3ISP11_17_ZeynetdinovArtyom.BD;
+using Tortugas3ISP11_17_ZeynetdinovArtyom.ClassHelper;
 
 namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
 {
@@ -19,9 +21,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
     /// </summary>
     public partial class Order : Window
     {
+        List<ProductOrder> orderList = new List<ProductOrder>();
         public Order()
         {
             InitializeComponent();
+
+            listOrder.ItemsSource = AppData.Context.ProductOrder.ToList();
         }
 
         private void Payment_Click(object sender, RoutedEventArgs e)
