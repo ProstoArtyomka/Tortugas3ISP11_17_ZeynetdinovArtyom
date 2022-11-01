@@ -13,7 +13,7 @@
                         Width="630"
                         Height="250"
                         Margin="10"
-                        BorderThickness="2"
+                        BorderThickness="3"
                         BorderBrush="White"
                         CornerRadius="30">
             <Grid>

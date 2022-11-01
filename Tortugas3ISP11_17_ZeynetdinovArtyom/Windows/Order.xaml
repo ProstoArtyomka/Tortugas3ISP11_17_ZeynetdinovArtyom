@@ -208,7 +208,7 @@
                         Width="630"
                         Height="250"
                         Margin="10"
-                        BorderThickness="2"
+                        BorderThickness="3"
                         BorderBrush="White"
                         CornerRadius="30">
                         <Grid>
@@ -244,19 +244,19 @@
                     Source="{Binding Path=Product.Photo}"
                     Stretch="Fill"
                     Grid.ColumnSpan="2"
-                    Margin="23,7,56.111,17.222"
+                    Margin="23,7,161.111,17.222"
                     Grid.RowSpan="3"/>
 
                             <TextBlock 
                     Text="{Binding Path=Product.NameProduct}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    TextAlignment="Center"
+                    TextAlignment="Left"
                     Foreground="White"
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat ExtraBold"
-                    Margin="228.111,10,14.667,30.222" 
-                    Width="199"
-                    FontSize="18"
+                    Margin="123.111,7,19.667,33.222" 
+                    Width="299"
+                    FontSize="30"
                     Height="42"
                     TextWrapping="Wrap" Grid.Column="1" Grid.ColumnSpan="3" />
                             <Image
@@ -271,7 +271,7 @@
                     VerticalAlignment="Center"
                     Foreground="White"
                     FontFamily="/Tortugas3ISP11_17_ZeynetdinovArtyom;component/Montserrat/#Montserrat SemiBold"
-                    Margin="16.333,64,74.667,69.444" 
+                    Margin="20.889,71,69.667,62.296" 
                     Width="85"
                     FontSize="18"
                     Height="31"

@@ -21,12 +21,12 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
     /// </summary>
     public partial class Order : Window
     {
-        List<ProductOrder> orderList = new List<ProductOrder>();
+        List<ClassOrder> orderList = new List<ClassOrder>();
         public Order()
         {
             InitializeComponent();
 
-            listOrder.ItemsSource = AppData.Context.ProductOrder.ToList();
+            //orderList.ItemsSource
         }
 
         private void Payment_Click(object sender, RoutedEventArgs e)
