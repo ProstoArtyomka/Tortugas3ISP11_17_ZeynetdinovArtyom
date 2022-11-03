@@ -20,6 +20,7 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
     public partial class Information : Window
     {
         BD.Product editProd = new BD.Product();
+        int ProductCount = 1;
         public Information(BD.Product editProduct)
         {
             InitializeComponent();
@@ -42,6 +43,21 @@ namespace Tortugas3ISP11_17_ZeynetdinovArtyom.Windows
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Plus_Click(object sender, RoutedEventArgs e)
+        {
+            CountProduct.Text = Convert.ToString(ProductCount++);
+        }
+
+        private void Minus_Click(object sender, RoutedEventArgs e)
+        {
+            CountProduct.Text = Convert.ToString(ProductCount--);
         }
     }
 }

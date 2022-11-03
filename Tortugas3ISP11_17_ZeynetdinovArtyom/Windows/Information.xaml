@@ -97,10 +97,10 @@
                         </Grid.ColumnDefinitions>
                         <Image
                             Source="/Image/+-.png"
-                            Grid.ColumnSpan="2"
-                        />
+                            Grid.ColumnSpan="2"/>
                         <Button
                             x:Name="Minus"
+                            Click="Minus_Click"
                             Background="{x:Null}"
                             BorderBrush="{x:Null}" 
                             Foreground="{x:Null}"
@@ -108,6 +108,7 @@
                             />
                         <Button
                             x:Name="Plus"
+                            Click="Plus_Click"
                             Background="{x:Null}"
                             BorderBrush="{x:Null}" 
                             Foreground="{x:Null}"
@@ -137,6 +138,7 @@
                         Source="/Image/Back.png"/>
                 </Button>
                 <Button x:Name="Add"
+                        Click="Add_Click"
                         Grid.Row="3"
                         Background="{x:Null}"
                         BorderBrush="{x:Null}"
